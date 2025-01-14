@@ -10,7 +10,7 @@ var frameworkDatasourceSchema = schema.Schema{
 	Attributes: map[string]schema.Attribute{
 		"id": schema.StringAttribute{
 			Description: "The id of the VPC.",
-			Computed:    true,
+			Required:    true,
 		},
 
 		"engine_id": schema.StringAttribute{
